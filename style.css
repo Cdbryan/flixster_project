@@ -20,7 +20,7 @@ header{
     letter-spacing: .15rem;
 }
 
-#name{
+#search-input{
     font-family: inherit;
     border-radius: 50px;
     padding: .3rem;
@@ -33,7 +33,7 @@ header{
 
 }
 
-#reset{
+#close-search-btn{
     margin-left: 60px;
     border-radius: 20px;
     cursor: pointer;
@@ -51,12 +51,12 @@ header{
     border: 2px solid salmon
 } */
 
-#movieblock{
+.movie-card{
     flex-wrap: wrap;
     margin: 20px;  
 }
 
-#results{
+#movies-grid{
     display: grid;
     grid-template-columns: repeat(5, 60px);
     gap: 200px; 
@@ -67,7 +67,7 @@ header{
 
 }
 
-#movieblock img{
+.movie-card img{
     box-shadow: .2px 4px 5px rgba(0,0,0,1);
     display:flex;
     flex-wrap: wrap;
@@ -78,15 +78,16 @@ header{
     border: 2px solid white;
 }
 
-#movieblock h1{
+.movie-card h1{
     width: 150px;
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: white;
     text-align: center;
-
 }
+
+
 
 #load{
     position: fixed;
@@ -98,6 +99,15 @@ header{
     bottom: 0;
     width: 100%; */
 }
+
+#source{
+    /* position: fixed; */
+    bottom: -2px;
+    right: 10px;
+    margin-left: 20px;
+    color: white; 
+    font-size: 8px;
+} 
 
 
 

@@ -1,9 +1,11 @@
-const searchterm = document.querySelector("#name")
+//at some point when I search happy it adds it to the bottom of the page 
+
+const searchterm = document.querySelector("#search-input")
 const submit = document.querySelector("#submit") //submit button 
-const rdiv = document.querySelector("#results")
+const rdiv = document.querySelector("#movies-grid")
 const form = document.querySelector("#form")
-const loadmore = document.querySelector("#loadmore")
-const reset = document.querySelector("#reset")
+const loadmore = document.querySelector("#load-more-movies-btn")
+const reset = document.querySelector("#close-search-btn")
 
 var executed = false; 
 var more = false; 
@@ -35,9 +37,9 @@ function displayResults(results){
     //rdiv.innerHTML = ""
     for(let i =0; i < results.length; i++)
     {
-        rdiv.innerHTML += `<div id="movieblock"> 
-            <img src="https://images.tmdb.org/t/p/w500${results[i].poster_path}">
-            <h1 id="titles"> ${results[i].title} <br/> ⭐️ ${results[i].vote_count} </h1>  
+        rdiv.innerHTML += `<div class="movie-card"> 
+            <img class="movie-poster" src="https://images.tmdb.org/t/p/w500${results[i].poster_path}">
+            <h1 class="movie-title"> ${results[i].title} <br> ⭐️ ${results[i].vote_count} </h1> </h1>  
         <div>`
     }
     searchterm.value = ''
@@ -46,6 +48,7 @@ function displayResults(results){
 form.addEventListener("submit", async (event) => {
     event.preventDefault()
     page = 1
+    rdiv.innerHTML = ""
     homepage = false 
     let tempsearch = event.target.searchterm.value
     term = tempsearch.replace(/ /g, "+")
