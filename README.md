@@ -41,15 +41,17 @@ Deployed Application (optional): [Flixster Deployed Site](https://cdbryan.github
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
+Search and Load More 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77913247/174743801-a12fd0ac-d1a6-4ab1-bf7c-0fb21667006e.gif)
 
-`ADD_EMBEDDED_CODE_HERE`
+Search and Reset 
+![ezgif com-gif-maker copy](https://user-images.githubusercontent.com/77913247/174744804-62e8815a-cd5d-4dd7-b7ad-afdd90ee85ab.gif)
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-I am unfamiliar with CSS so I ran into some styling issues with the layout of the page that took me a while to figure out. Luckily there are a lot of online sources that help explain CSS styling so I was able to style my webpage appropriately
+I am unfamiliar with CSS so I ran into some styling issues with the layout of the page that took me a while to figure out. Luckily there are a lot of online sources that help explain CSS styling so I was able to style my webpage appropriately.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
