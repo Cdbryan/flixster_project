@@ -39,12 +39,14 @@ Deployed Application (optional): [Flixster Deployed Site](https://cdbryan.github
 - [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
-### Walkthrough Video
+### Walkthrough Gifs
 
 Search and Load More 
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/77913247/174743801-a12fd0ac-d1a6-4ab1-bf7c-0fb21667006e.gif)
 
 Search and Reset 
+
 ![ezgif com-gif-maker copy](https://user-images.githubusercontent.com/77913247/174744804-62e8815a-cd5d-4dd7-b7ad-afdd90ee85ab.gif)
 
 ### Reflection
